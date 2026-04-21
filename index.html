@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Performance-Software, Coding und Tuning fuer Mercedes, BMW, Audi, Porsche und viele weitere Modelle. Mit Fahrzeug-Konfigurator, Vorher-Nachher-Werten und WhatsApp-Terminvereinbarung."
+    />
+    <title>Redline Coding | Auto Software &amp; Performance Tuning</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="hero" id="top">
+        <nav class="topbar">
+          <a class="brand" href="#top" aria-label="Startseite">
+            <span class="brand-mark">REDLINE</span>
+            <span class="brand-copy">Coding &amp; Tuning Lab</span>
+          </a>
+
+          <button
+            class="nav-toggle"
+            id="nav-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="nav-links"
+          >
+            <span></span>
+            <span></span>
+          </button>
+
+          <div class="nav-links" id="nav-links">
+            <a href="#leistungen">Leistungen</a>
+            <a href="#fahrzeuge">Fahrzeuge</a>
+            <a href="#prozess">Ablauf</a>
+            <a href="#termine">Termine</a>
+            <a class="nav-cta" href="https://wa.me/4917672766762" target="_blank" rel="noreferrer"
+              >WhatsApp</a
+            >
+          </div>
+        </nav>
+
+        <div class="hero-grid reveal">
+          <div class="hero-copy">
+            <p class="eyebrow">Software | Coding | Performance</p>
+            <h1>Mehr Druck, mehr Reaktion, mehr Charakter fuer dein Fahrzeug.</h1>
+            <p class="hero-text">
+              Moderne Kennfeldoptimierung, sauberes Coding und individuelle
+              Abstimmung fuer Performance-Fahrer, Daily Builds und sportliche
+              OEM-Upgrades. Rot, kompromisslos und mit Fokus auf einem starken
+              Fahrerlebnis.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#fahrzeuge">Fahrzeug ansehen</a>
+              <a class="btn btn-secondary" href="#termine">Termin anfragen</a>
+            </div>
+
+            <div class="hero-highlights">
+              <article class="highlight-card">
+                <strong>Stage 1 / Stage 2</strong>
+                <span>Mehr Leistung, mehr Drehmoment, sauber abgestimmt.</span>
+              </article>
+              <article class="highlight-card">
+                <strong>Mercedes bis Porsche</strong>
+                <span>Beliebte Modelle direkt auswaehlbar, weitere auf Anfrage.</span>
+              </article>
+              <article class="highlight-card">
+                <strong>Direkt per WhatsApp</strong>
+                <span>Kontakt, Angebot und Termin ohne Umwege.</span>
+              </article>
+            </div>
+          </div>
+
+          <div class="hero-stage">
+            <div class="hero-orb"></div>
+            <div class="hero-panel glass">
+              <div class="panel-topline">
+                <span class="status-dot"></span>
+                <span>Live Vehicle Showcase</span>
+              </div>
+              <div class="hero-visual" id="hero-visual" aria-hidden="true"></div>
+              <div class="hero-readout">
+                <div>
+                  <small>Serie</small>
+                  <strong id="hero-stock">0 PS</strong>
+                </div>
+                <div>
+                  <small>Optimiert</small>
+                  <strong id="hero-tuned">0 PS</strong>
+                </div>
+                <div>
+                  <small>Gewinn</small>
+                  <strong id="hero-gain">+0 PS</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="brand-strip">
+          <span>Mercedes</span>
+          <span>BMW</span>
+          <span>Audi</span>
+          <span>Porsche</span>
+          <span>Volkswagen</span>
+          <span>Cupra</span>
+          <span>Skoda</span>
+          <span>SEAT</span>
+          <span>Land Rover</span>
+        </div>
+      </header>
+
+      <main>
+        <section class="section services reveal" id="leistungen">
+          <div class="section-header">
+            <p class="eyebrow">Was die Seite kann</p>
+            <h2>Eine Performance-Marke mit Werkstatt-Feeling und klarer Ansage.</h2>
+            <p>
+              Die Seite verbindet Leistungsdaten, Fahrzeugauswahl und direkte
+              Terminvereinbarung in einem Auftritt, der sportlich, modern und
+              hochwertig wirkt.
+            </p>
+          </div>
+
+          <div class="service-grid">
+            <article class="service-card glass">
+              <span class="card-index">01</span>
+              <h3>Software-Optimierung</h3>
+              <p>
+                Stage 1, Stage 2 und alltagstaugliche Abstimmungen mit Fokus auf
+                fahrbare Leistung statt leerem Marketing.
+              </p>
+            </article>
+            <article class="service-card glass">
+              <span class="card-index">02</span>
+              <h3>Coding &amp; Sonderfunktionen</h3>
+              <p>
+                Komfort- und Performance-Coding, individuelle Freischaltungen und
+                saubere Anpassung je nach Fahrzeugplattform.
+              </p>
+            </article>
+            <article class="service-card glass">
+              <span class="card-index">03</span>
+              <h3>Vorher / Nachher Werte</h3>
+              <p>
+                Besucher sehen direkt ungefaehre PS- und Nm-Werte fuer beliebte
+                Modelle und koennen schnell eine Richtung waehlen.
+              </p>
+            </article>
+            <article class="service-card glass">
+              <span class="card-index">04</span>
+              <h3>Termin &amp; WhatsApp</h3>
+              <p>
+                Anfragen landen ohne Umweg bei dir. Das Formular baut automatisch
+                eine WhatsApp-Nachricht mit allen Fahrzeugdaten.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section configurator" id="fahrzeuge">
+          <div class="section-header reveal">
+            <p class="eyebrow">Fahrzeug-Konfigurator</p>
+            <h2>Marke waehlen, Modell ansehen, Leistungsplus direkt erleben.</h2>
+            <p>
+              Alle Werte sind als Richtwerte gedacht. Das finale Ergebnis haengt
+              von Motor, Softwarestand, Kraftstoff, Hardware-Setup und Fahrzeugzustand
+              ab.
+            </p>
+          </div>
+
+          <div class="configurator-layout">
+            <aside class="config-panel glass reveal">
+              <div class="input-group">
+                <label for="brand-select">Marke</label>
+                <select id="brand-select"></select>
+              </div>
+
+              <div class="input-group">
+                <label for="model-select">Modell</label>
+                <select id="model-select"></select>
+              </div>
+
+              <div class="input-group">
+                <label for="stage-select">Optimierung</label>
+                <select id="stage-select">
+                  <option value="stage1">Stage 1</option>
+                  <option value="stage2">Stage 2</option>
+                  <option value="eco">Eco Torque</option>
+                </select>
+              </div>
+
+              <div class="gain-grid">
+                <article class="gain-card">
+                  <small>PS Gewinn</small>
+                  <strong id="gain-hp">+0 PS</strong>
+                </article>
+                <article class="gain-card">
+                  <small>Nm Gewinn</small>
+                  <strong id="gain-nm">+0 Nm</strong>
+                </article>
+                <article class="gain-card">
+                  <small>0-100</small>
+                  <strong id="gain-acc">0.0 s</strong>
+                </article>
+              </div>
+
+              <div class="config-note">
+                <h3>Was Kunden hier sehen</h3>
+                <p>
+                  Eine klare Orientierung fuer beliebte Modelle von Mercedes,
+                  BMW, Audi, Porsche und weiteren Marken. Perfekt fuer einen
+                  modernen Tuning-Auftritt.
+                </p>
+              </div>
+            </aside>
+
+            <div class="config-display glass reveal">
+              <div class="vehicle-stage">
+                <div class="vehicle-visual" id="vehicle-visual" aria-hidden="true"></div>
+                <div class="vehicle-meta">
+                  <span class="vehicle-badge" id="vehicle-badge">Stage 1</span>
+                  <h3 id="vehicle-title">Fahrzeugauswahl</h3>
+                  <p id="vehicle-copy">
+                    Waehle Marke und Modell, um ungefaehre Vorher-Nachher-Werte zu
+                    sehen.
+                  </p>
+                </div>
+              </div>
+
+              <div class="metric-grid">
+                <article class="metric-card">
+                  <span>Serie Leistung</span>
+                  <strong id="stock-hp">0</strong>
+                  <small>PS</small>
+                </article>
+                <article class="metric-card metric-card-accent">
+                  <span>Optimiert</span>
+                  <strong id="tuned-hp">0</strong>
+                  <small>PS</small>
+                </article>
+                <article class="metric-card">
+                  <span>Serie Drehmoment</span>
+                  <strong id="stock-nm">0</strong>
+                  <small>Nm</small>
+                </article>
+                <article class="metric-card metric-card-accent">
+                  <span>Optimiert</span>
+                  <strong id="tuned-nm">0</strong>
+                  <small>Nm</small>
+                </article>
+              </div>
+
+              <div class="data-bars">
+                <div class="bar-block">
+                  <div class="bar-labels">
+                    <span>Leistung</span>
+                    <span id="bar-hp-label">0%</span>
+                  </div>
+                  <div class="bar-track">
+                    <span class="bar-fill" id="bar-hp"></span>
+                  </div>
+                </div>
+                <div class="bar-block">
+                  <div class="bar-labels">
+                    <span>Drehmoment</span>
+                    <span id="bar-nm-label">0%</span>
+                  </div>
+                  <div class="bar-track">
+                    <span class="bar-fill" id="bar-nm"></span>
+                  </div>
+                </div>
+                <div class="bar-block">
+                  <div class="bar-labels">
+                    <span>Response / Fahrbarkeit</span>
+                    <span id="bar-drive-label">0%</span>
+                  </div>
+                  <div class="bar-track">
+                    <span class="bar-fill" id="bar-drive"></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="detail-grid">
+                <article>
+                  <small>Motor / Basis</small>
+                  <strong id="detail-engine">-</strong>
+                </article>
+                <article>
+                  <small>Karosserie</small>
+                  <strong id="detail-body">-</strong>
+                </article>
+                <article>
+                  <small>0-100 Serie</small>
+                  <strong id="detail-stock-acc">-</strong>
+                </article>
+                <article>
+                  <small>0-100 Optimiert</small>
+                  <strong id="detail-tuned-acc">-</strong>
+                </article>
+              </div>
+
+              <div class="workflow-strip">
+                <span>Analyse</span>
+                <span>Software</span>
+                <span>Logfahrt</span>
+                <span>Feinschliff</span>
+                <span>Uebergabe</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="model-gallery reveal" id="model-gallery"></div>
+        </section>
+
+        <section class="section workflow reveal" id="prozess">
+          <div class="section-header">
+            <p class="eyebrow">Ablauf</p>
+            <h2>Von der Anfrage bis zur Uebergabe klar, schnell und hochwertig.</h2>
+          </div>
+
+          <div class="workflow-grid">
+            <article class="workflow-card glass">
+              <span>01</span>
+              <h3>Fahrzeugcheck</h3>
+              <p>
+                Wir schauen auf Plattform, Motor, Getriebe, Softwarestand und
+                dein Ziel: mehr Leistung, mehr Durchzug oder individuelles Coding.
+              </p>
+            </article>
+            <article class="workflow-card glass">
+              <span>02</span>
+              <h3>Abstimmung</h3>
+              <p>
+                Die Kennfelder werden passend zur Fahrzeugbasis ausgelegt. Nicht
+                laut auf dem Papier, sondern sauber auf der Strasse.
+              </p>
+            </article>
+            <article class="workflow-card glass">
+              <span>03</span>
+              <h3>Pruefen &amp; Logging</h3>
+              <p>
+                Werte, Reaktion und Fahrbarkeit werden kontrolliert. Ziel ist ein
+                sicheres, rundes und spuerbares Ergebnis.
+              </p>
+            </article>
+            <article class="workflow-card glass">
+              <span>04</span>
+              <h3>Support</h3>
+              <p>
+                Nachfragen, Terminabsprachen und schnelle Rueckmeldung laufen
+                direkt ueber WhatsApp, damit Kunden ohne Huerden Kontakt haben.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section booking" id="termine">
+          <div class="section-header reveal">
+            <p class="eyebrow">Terminbereich</p>
+            <h2>Termin anfragen, Fahrzeug durchgeben und direkt auf WhatsApp senden.</h2>
+            <p>
+              Ohne Backend-Zwang: Die Seite sammelt alle Angaben und oeffnet
+              daraus automatisch eine vorbereitete WhatsApp-Anfrage an dich.
+            </p>
+          </div>
+
+          <div class="booking-layout">
+            <form class="booking-form glass reveal" id="booking-form">
+              <div class="form-row">
+                <div class="input-group">
+                  <label for="booking-name">Name</label>
+                  <input id="booking-name" name="name" type="text" placeholder="Max Mustermann" required />
+                </div>
+                <div class="input-group">
+                  <label for="booking-phone">Telefon</label>
+                  <input
+                    id="booking-phone"
+                    name="phone"
+                    type="tel"
+                    placeholder="0176..."
+                    inputmode="tel"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="input-group">
+                  <label for="booking-brand">Marke</label>
+                  <select id="booking-brand" name="brand"></select>
+                </div>
+                <div class="input-group">
+                  <label for="booking-model">Modell</label>
+                  <select id="booking-model" name="model"></select>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="input-group">
+                  <label for="booking-package">Wunschpaket</label>
+                  <select id="booking-package" name="package">
+                    <option value="stage1">Stage 1 Software</option>
+                    <option value="stage2">Stage 2 Setup</option>
+                    <option value="eco">Eco Torque</option>
+                    <option value="tcu">Getriebe / TCU</option>
+                    <option value="coding">Coding &amp; Sonderfunktionen</option>
+                  </select>
+                </div>
+                <div class="form-row-inline">
+                  <div class="input-group">
+                    <label for="booking-date">Datum</label>
+                    <input id="booking-date" name="date" type="date" required />
+                  </div>
+                  <div class="input-group">
+                    <label for="booking-time">Zeit</label>
+                    <input id="booking-time" name="time" type="time" required />
+                  </div>
+                </div>
+              </div>
+
+              <div class="input-group">
+                <label for="booking-note">Nachricht / Wunsch</label>
+                <textarea
+                  id="booking-note"
+                  name="note"
+                  rows="5"
+                  placeholder="Zum Beispiel: Stage 1 fuer BMW M340i, sportlich aber alltagstauglich. Oder Coding-Wunsch mit Komfortfunktionen."
+                ></textarea>
+              </div>
+
+              <button class="btn btn-primary btn-full" type="submit">
+                Termin per WhatsApp anfragen
+              </button>
+              <p class="form-hint">
+                Beim Klick wird eine fertige Nachricht mit deinen Angaben an
+                WhatsApp uebergeben.
+              </p>
+              <div class="form-success" id="form-success" hidden>
+                WhatsApp wurde vorbereitet. Falls sich kein neues Fenster oeffnet,
+                nutze den Direkt-Button rechts.
+              </div>
+            </form>
+
+            <aside class="booking-summary glass reveal">
+              <p class="eyebrow">Live-Zusammenfassung</p>
+              <h3 id="summary-title">Deine Anfrage im Ueberblick</h3>
+              <p id="summary-copy">
+                Fahrzeug, Paket und Wunschtermin werden hier live zusammengefasst.
+              </p>
+
+              <div class="summary-grid">
+                <article>
+                  <small>Fahrzeug</small>
+                  <strong id="summary-vehicle">-</strong>
+                </article>
+                <article>
+                  <small>Paket</small>
+                  <strong id="summary-package">-</strong>
+                </article>
+                <article>
+                  <small>Leistung</small>
+                  <strong id="summary-power">-</strong>
+                </article>
+                <article>
+                  <small>Drehmoment</small>
+                  <strong id="summary-torque">-</strong>
+                </article>
+                <article>
+                  <small>Wunschtermin</small>
+                  <strong id="summary-date">-</strong>
+                </article>
+                <article>
+                  <small>Kontakt</small>
+                  <strong>0176 72766762</strong>
+                </article>
+              </div>
+
+              <a
+                class="btn btn-secondary btn-full"
+                id="summary-whatsapp"
+                href="https://wa.me/4917672766762"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Direkt auf WhatsApp schreiben
+              </a>
+            </aside>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div>
+          <strong>Redline Coding &amp; Tuning Lab</strong>
+          <p>
+            Performance-Software, Fahrzeug-Coding und sportliche Abstimmung fuer
+            Premium- und Performance-Modelle.
+          </p>
+        </div>
+        <div class="footer-links">
+          <a href="#leistungen">Leistungen</a>
+          <a href="#fahrzeuge">Fahrzeuge</a>
+          <a href="#termine">Termine</a>
+          <a href="https://wa.me/4917672766762" target="_blank" rel="noreferrer">WhatsApp</a>
+        </div>
+      </footer>
+    </div>
+
+    <div class="whatsapp-widget">
+      <div class="whatsapp-card glass is-hidden" id="whatsapp-card">
+        <div class="whatsapp-head">
+          <div>
+            <strong>WhatsApp Kontakt</strong>
+            <small>Schnelle Anfrage fuer Termin oder Angebot</small>
+          </div>
+          <button
+            id="whatsapp-close"
+            class="whatsapp-close"
+            type="button"
+            aria-label="WhatsApp Widget schliessen"
+          >
+            x
+          </button>
+        </div>
+        <div class="whatsapp-body">
+          <div class="chat-bubble inbound">
+            Hi, ich moechte mein Fahrzeug softwareoptimieren lassen.
+          </div>
+          <div class="chat-bubble outbound">
+            Schreib Marke, Modell und Wunschpaket, ich melde mich direkt.
+          </div>
+        </div>
+        <a
+          class="btn btn-primary btn-full"
+          href="https://wa.me/4917672766762?text=Hallo%2C%20ich%20interessiere%20mich%20fuer%20eine%20Software-Optimierung%20und%20moechte%20einen%20Termin%20anfragen."
+          target="_blank"
+          rel="noreferrer"
+        >
+          WhatsApp starten
+        </a>
+      </div>
+
+      <button
+        id="whatsapp-toggle"
+        class="whatsapp-fab"
+        type="button"
+        aria-expanded="false"
+        aria-controls="whatsapp-card"
+      >
+        <span class="whatsapp-icon">W</span>
+        <span>Chat / WhatsApp</span>
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
